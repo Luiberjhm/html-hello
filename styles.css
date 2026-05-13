@@ -1,0 +1,53 @@
+body {
+    background-color: #FAFAFA;
+    font-family: sans-serif;
+}
+
+/* Limpiamos margenes por defecto del navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: white;
+    width: 600px;
+    margin: 20px auto;    
+    border: 1px solid #DBDBDB; 
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+}
+
+.header-left {
+    display: flex;    
+    align-items: center;
+    gap: 10px;
+}
+
+.post-img {
+    width: 100%;    
+    height: auto;  
+}
+
+.post-buttons {
+    display: flex;
+    font-size: 20px;
+    padding: 10px 15px;
+    gap: 10px;
+}
+
+.post-likes {
+    padding: 10px 15px;
+}
+
+.post-date{
+    color: #8E8E8E;
+    font-size: 10px;
+    font-weight: 400;
+}
